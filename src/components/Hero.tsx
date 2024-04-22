@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
     return (
-        <div id="home" className="block h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-16 lg:pt-0 pt-12">
+        <div id="home" className="block h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-16 lg:pt-0 pt-12 bg-cover bg-center" style={{backgroundImage: "url('/bg.png')"}}>
             <div className="relative z-10 text-white w-full lg:w-1/3">
                 <div className="text-left mb-4">
                     <h1 className="text-lg md:text-5xl mb-6"><strong>Sociallife</strong> - serviço de promoção em redes sociais</h1>
