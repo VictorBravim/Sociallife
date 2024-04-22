@@ -1,7 +1,7 @@
 // Page.tsx
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero';
-import Three from '@/components/three';
+import Three from '@/components/Three';
 import Footer from '@/components/Footer';
 
 export default function Home() {
