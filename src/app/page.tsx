@@ -3,6 +3,7 @@ import Nav from '@/components/Nav'
 import Hero from '@/components/Hero';
 import Three from '@/components/Three';
 import Four from '@/components/Four';
+import Five from '@/components/Five';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Three />
       <Four />
+      <Five />
       <Footer />
     </main>
   );
