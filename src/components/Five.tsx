@@ -9,8 +9,8 @@ export default function Five() {
                 <Image src={banner2} alt="Logo" width={1000} height={32} />
             </div>
             <div className="relative z-10 text-white w-full lg:w-1/2">
-                <div className="w-1/2 text-left text-white mb-12">
-                    <p className="bg-pink-700 p-0 mr-64 rounded-full mb-2">Encontre-se</p>
+                <div className="w-1/2 text-left text-white mb-6">
+                    <p className="bg-pink-700 text-center p-0 mr-56 rounded-full mb-2">Encontre-se</p>
                     <h1 className="text-lg text-left md:text-6xl">Será útil para</h1>
                 </div>
                 <div className="text-left mb-4">

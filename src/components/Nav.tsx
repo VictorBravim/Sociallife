@@ -32,7 +32,8 @@ export default function Nav() {
                     <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('home')}>Home</button>
                     <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('three')}>Projeto</button>
                     <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('four')}>Sobre</button>
-                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('recursos')}>Recursos</button>
+                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('five')}>Recursos</button>
+                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('six')}>Compra</button>
                 </div>
                 <button className="bg-none hidden lg:block border border-white text-green-custom rounded-full text-base md:text-lg font-bold py-2 px-4 mt-4 md:mt-0 mr-0 lg:mr-8">
                   <IoIosMenu className='text-white'/>
