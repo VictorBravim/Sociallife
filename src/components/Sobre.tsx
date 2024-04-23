@@ -4,7 +4,7 @@ import user from '@/assets/user.png'
 
 export default function Sobre() {
     return (
-        <div id="sobre" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-40 lg:pt-0 pt-12 bg-cover bg-center" style={{backgroundImage: "url('/bg4.png')"}}>
+        <div id="sobre" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-40 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg4.png')" }}>
             <div className="text-center text-white mb-32 pt-16">
                 <p className="bg-pink-700 mx-24 rounded-full mb-2">Sobre</p>
                 <h1 className="text-lg md:text-2xl">Como nosso serviço funciona?</h1>
@@ -25,7 +25,7 @@ export default function Sobre() {
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 flex items-center justify-center ml-16">
-                <Image src={user} alt="Logo" width={700} height={32} />
+                    <Image src={user} alt="Logo" width={700} height={32} />
                 </div>
             </div>
         </div>

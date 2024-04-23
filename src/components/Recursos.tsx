@@ -6,7 +6,7 @@ export default function Recursos() {
     return (
         <div id="recursos" className="block h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-56 lg:pt-0 pt-12bg-cover bg-center" style={{ backgroundImage: "url('/bg5.png')" }}>
             <div className="w-full lg:w-1/2 mr-20">
-                <Image src={banner2} priority alt="Logo" width={700} height={32} />
+                <Image src={banner2} alt="Logo" width={750} height={32} />
             </div>
             <div className="relative z-10 text-white w-full lg:w-1/2">
                 <div className="w-1/2 text-left text-white mb-6">

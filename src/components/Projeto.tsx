@@ -1,8 +1,6 @@
 // Projeto.tsx
 'use client'
 import { useState, useEffect } from "react";
-import Image from "next/image";
-import user from '@/assets/user.png';
 
 export default function Projeto() {
     const [timeLeft, setTimeLeft] = useState({ hours: 12, minutes: 0, seconds: 0 });
