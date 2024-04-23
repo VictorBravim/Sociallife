@@ -4,6 +4,7 @@ import Hero from '@/components/Hero';
 import Three from '@/components/Three';
 import Four from '@/components/Four';
 import Five from '@/components/Five';
+import Six from '@/components/Six';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Three />
       <Four />
       <Five />
+      <Six />
       <Footer />
     </main>
   );

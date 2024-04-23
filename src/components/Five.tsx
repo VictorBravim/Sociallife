@@ -4,7 +4,7 @@ import banner2 from '@/assets/banner2.png'
 
 export default function Five() {
     return (
-        <div id="home" className="block h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-56 lg:pt-0 pt-12">
+        <div id="five" className="block h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-56 lg:pt-0 pt-12">
             <div className="w-full lg:w-1/2 mr-20">
                 <Image src={banner2} alt="Logo" width={1000} height={32} />
             </div>
