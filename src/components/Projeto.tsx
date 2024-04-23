@@ -1,10 +1,10 @@
-// Four.tsx
+// Projeto.tsx
 'use client'
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import user from '@/assets/user.png';
 
-export default function Four() {
+export default function Projeto() {
     const [timeLeft, setTimeLeft] = useState({ hours: 12, minutes: 0, seconds: 0 });
 
     useEffect(() => {
@@ -42,9 +42,9 @@ export default function Four() {
     };
 
     return (
-        <div id="four" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-16 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg2.png')" }}>
+        <div id="projeto" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-16 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg2.png')" }}>
             <div className="text-center text-white mb-4">
-                <p className="bg-pink-700 mx-24 rounded-full mb-2">Work</p>
+                <p className="bg-pink-700 mx-24 rounded-full mb-2">Projetos</p>
                 <h1 className="text-lg md:text-2xl">O serviço será atualizado em:</h1>
             </div>
             <div className="w-1/2 flex flex-col items-center justify-center px-8 lg:px-16 mb-16">

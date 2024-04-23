@@ -1,10 +1,10 @@
 // Page.tsx
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero';
-import Three from '@/components/Three';
-import Four from '@/components/Four';
-import Five from '@/components/Five';
-import Six from '@/components/Six';
+import Sobre from '@/components/Sobre';
+import Projeto from '@/components/Projeto';
+import Recursos from '@/components/Recursos';
+import Servico from '@/components/Servico';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -12,10 +12,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between">
       <Nav />
       <Hero />
-      <Three />
-      <Four />
-      <Five />
-      <Six />
+      <Sobre />
+      <Projeto />
+      <Recursos />
+      <Servico />
       <Footer />
     </main>
   );

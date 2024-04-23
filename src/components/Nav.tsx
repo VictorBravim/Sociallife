@@ -30,10 +30,10 @@ export default function Nav() {
                 </div>
                 <div className="md:flex space-x-6 lg:space-x-12 mt-4 md:mt-0">
                     <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('home')}>Home</button>
-                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('three')}>Projeto</button>
-                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('four')}>Sobre</button>
-                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('five')}>Recursos</button>
-                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('six')}>Compra</button>
+                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('sobre')}>Sobre</button>
+                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('projeto')}>Projeto</button>
+                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('recursos')}>Recursos</button>
+                    <button className="text-white text-base md:text-lg" onClick={() => scrollToSection('servico')}>Servico</button>
                 </div>
                 <button className="bg-none hidden text-white lg:block rounded-full text-base md:text-5xl font-bold px-4 mt-4 md:mt-0 mr-0 lg:mr-8">
                   <IoIosMenu/>
