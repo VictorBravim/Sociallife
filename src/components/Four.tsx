@@ -72,7 +72,7 @@ export default function Four() {
                     font-size: 5em;
                 }
                 .time-separator {
-                    font-size: 1.5em;
+                    font-size: 5em;
                     line-height: 0.8;
                     margin-top: 0.3em;
                 }
