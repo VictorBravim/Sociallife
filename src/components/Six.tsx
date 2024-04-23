@@ -1,48 +1,56 @@
-// Six.tsx
-import Image from "next/image";
-import banner from '@/assets/banner.png'
-
 export default function Six() {
     return (
-        <div id="six" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-56 lg:pt-0 pt-12 bg-cover bg-center" style={{backgroundImage: "url('/bg3.png')"}}>
-                        <div className="text-center text-white mb-32">
-                <p className="bg-pink-700 mx-24 rounded-full mb-2">Work</p>
-                <h1 className="text-lg md:text-2xl">Como nosso serviço funciona?</h1>
-            </div>
-            <div className="relative flex flex-row items-center justify-center gap-4 z-10 text-white text-center w-full">
-                <div className="text-left">
-                    <h2 className="p-2">Benefices</h2>
-                    <h2 className="bg-gray-custom p-2">Number of acount</h2>
-                    <h2 className="p-2">Number of tasks</h2>
-                    <h2 className="bg-gray-custom p-2">Connected groups</h2>
-                    <h2 className="p-2">Support</h2>
-                    <h2 className="bg-gray-custom p-2">Price</h2>
-                </div>
-                <div className="text-center">
-                    <h2 className="p-2">Simple</h2>
-                    <h2 className="bg-gray-custom p-2">Limited</h2>
-                    <h2 className="p-2">3 Tasks</h2>
-                    <h2 className="bg-gray-custom p-2">Connected 4 groups</h2>
-                    <h2 className="p-2">24/7</h2>
-                    <h2 className="bg-gray-custom p-2">R$29.99</h2>
-                </div>
-                <div className="text-center">
-                    <h2 className="p-2">Basic</h2>
-                    <h2 className="bg-gray-custom p-2">Unlimited</h2>
-                    <h2 className="p-2">5 Tasks</h2>
-                    <h2 className="bg-gray-custom p-2">Connected 8 groups</h2>
-                    <h2 className="p-2">24/7</h2>
-                    <h2 className="bg-gray-custom p-2">R$49.00</h2>
-                </div>
-                <div className="text-center">
-                    <h2 className="p-2">Pro+</h2>
-                    <h2 className="bg-gray-custom p-2">Unlimited</h2>
-                    <h2 className="p-2">10 Tasks</h2>
-                    <h2 className="bg-gray-custom p-2">Connected 12 groups</h2>
-                    <h2 className="p-2">24/7</h2>
-                    <h2 className="bg-gray-custom p-2">R$69.99</h2>
-                </div>
-            </div>
+      <div
+        id="six"
+        className="block h-screen flex flex-col items-center justify-center px-8 lg:px-56 lg:pt-0 pt-12 bg-cover bg-center"
+        style={{ backgroundImage: "url('/bg3.png')" }}
+      >
+        <div className="text-center text-white mb-16">
+          <p className="bg-pink-700 mx-24 rounded-full mb-2">Work</p>
+          <h1 className="text-lg md:text-2xl">Como nosso serviço funciona?</h1>
         </div>
+        <div className="relative gap-12 flex flex-row items-center justify-center z-10 text-white text-center w-full">
+          <div className="w-1/3">
+            {/* Card Simples */}
+            <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+              <h2 className="text-4xl font-bold text-white mb-4">Simples</h2>
+              <ul className="text-center text-2xl text-gray-300">
+                <li className="p-2">Limited</li>
+                <li className="p-2">3 Tasks</li>
+                <li className="p-2">4 Groups</li>
+                <li className="p-2">24/7</li>
+                <li className="text-purple-custom">R$24,99</li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-1/3">
+            {/* Card Básico */}
+            <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+              <h2 className="text-4xl font-bold text-white mb-4">Básico</h2>
+              <ul className="text-center text-2xl text-gray-300">
+                <li className="p-2">Unlimited</li>
+                <li className="p-2">5 Tasks</li>
+                <li className="p-2">10 Groups</li>
+                <li className="p-2">24/7</li>
+                <li className="text-purple-custom">R$54,99</li>
+              </ul>
+            </div>
+          </div>
+          <div className="w-1/3">
+            {/* Card Pro */}
+            <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+              <h2 className="text-4xl font-bold text-white mb-4">Pro+</h2>
+              <ul className="text-center text-2xl text-gray-300">
+                <li className="p-2">Unlimited</li>
+                <li className="p-2">10 Tasks</li>
+                <li className="p-2">15 Groups</li>
+                <li className="p-2">24/7</li>
+                <li className="text-purple-custom">R$84,99</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     );
-}
+  }
+  
