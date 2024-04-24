@@ -40,7 +40,7 @@ export default function Projeto() {
     };
 
     return (
-        <div id="projeto" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-16 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg2.png')" }}>
+        <div id="projeto" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-16 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg3.webp')" }}>
             <div className="text-center text-white mb-4">
                 <p className="bg-pink-700 mx-24 rounded-full mb-2">Projetos</p>
                 <h1 className="text-lg md:text-2xl">O serviço será atualizado em:</h1>

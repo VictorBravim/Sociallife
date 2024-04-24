@@ -5,7 +5,7 @@ export default function Servico() {
     <div
       id="servico"
       className="block h-screen flex flex-col items-center justify-center px-8 lg:px-56 lg:pt-0 pt-12 bg-cover bg-center"
-      style={{ backgroundImage: "url('/bg3.png')" }}>
+      style={{ backgroundImage: "url('/bg5.webp')" }}>
       <div className="text-center text-white mb-32">
         <p className="bg-pink-700 mx-24 rounded-full mb-2">Serviços</p>
         <h1 className="text-lg md:text-2xl">Como nosso serviço funciona?</h1>

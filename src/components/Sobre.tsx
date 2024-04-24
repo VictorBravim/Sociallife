@@ -4,7 +4,7 @@ import user from '@/assets/user.webp'
 
 export default function Sobre() {
     return (
-        <div id="sobre" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-40 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg4.png')" }}>
+        <div id="sobre" className="block h-screen flex flex-col items-center justify-center px-8 lg:px-40 lg:pt-0 pt-12 bg-cover bg-center" style={{ backgroundImage: "url('/bg2.webp')" }}>
             <div className="text-center text-white mb-32 pt-16">
                 <p className="bg-pink-700 mx-24 rounded-full mb-2">Sobre</p>
                 <h1 className="text-lg md:text-2xl">Como nosso serviço funciona?</h1>
