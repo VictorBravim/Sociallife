@@ -1,6 +1,6 @@
 // Sobre.tsx
 import Image from "next/image";
-import user from '@/assets/user.png'
+import user from '@/assets/user.webp'
 
 export default function Sobre() {
     return (

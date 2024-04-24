@@ -2,7 +2,7 @@
 'use client'
 import { useState } from 'react';
 import Image from "next/image";
-import logo from '@/assets/Logo.png'
+import logo from '@/assets/Logo.webp'
 import { IoIosMenu } from "react-icons/io";
 
 export default function Nav() {

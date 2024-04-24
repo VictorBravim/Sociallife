@@ -1,6 +1,6 @@
 // Recursos.tsx
 import Image from "next/image";
-import banner2 from '@/assets/banner2.png'
+import banner2 from '@/assets/banner2.webp'
 
 export default function Recursos() {
     return (

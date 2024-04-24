@@ -1,6 +1,6 @@
 // Hero.tsx
 import Image from "next/image";
-import banner from '@/assets/banner.png'
+import banner from '@/assets/banner.webp'
 
 export default function Hero() {
     return (
@@ -22,7 +22,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="w-full lg:w-1/2">
-                <Image src={banner} alt="Logo" width={1000} height={32} />
+                <Image src={banner} priority alt="Logo" width={1000} height={32} />
             </div>
         </div>
     );
