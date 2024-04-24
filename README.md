@@ -1,9 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sociallife
 
-## Getting Started
+![image 4](https://github.com/VictorBravim/Sociallife/assets/122113588/4547d4b1-2369-4c92-ace1-33a0cc313838)
 
-First, run the development server:
+Sociallife é um serviço de promoção em redes sociais desenvolvido utilizando React e Next.js.
 
+<<<<<<< HEAD
 ```bash
 npm run dev
 # or
@@ -13,24 +14,67 @@ pnpm dev
 # or 
 bun dev
 ```
+=======
+## <code>Visão Geral</code>
+>>>>>>> f23f8d9358443ebaf02512b1f834b53952271d10
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este projeto consiste em um site responsivo com várias seções, incluindo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Página inicial (Home)
+- Sobre
+- Projeto
+- Recursos
+- Serviço
+- Footer
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## <code>Instalação</code>
 
-## Learn More
+Certifique-se de ter o Node.js instalado em sua máquina.
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone o repositório:
+   
+   ```
+   git clone https://github.com/VictorBravim/truevr-website.git
+   ```
+2. Instale as dependências:
+   
+   ```
+   npm install
+   ```
+   
+## <code>Uso</code>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para iniciar o servidor de desenvolvimento:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- npm run dev
+Acesse [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar o site.
 
-## Deploy on Vercel
+## <code>Estrutura do Projeto</code>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- sociallife/
+- ├── components/
+- │ ├── Nav.tsx
+- │ ├── Hero.tsx
+- │ ├── Sobre.tsx
+- │ ├── Projeto.tsx
+- │ ├── Recursos.tsx
+- │ ├── Servico.tsx
+- │ └── Footer.tsx
+- ├── app/
+- │ ├── layout.tsx
+- │ └── page.tsx
+- ├── assets/
+- │ ├── logo.webp
+- │ ├── banner.webp
+- │ ├── user.webp
+- │ ├── banner2.webp
+- │ └── ...
+- ├── ...
+- └── README.md
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## <code>Licença</code>
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+
+
