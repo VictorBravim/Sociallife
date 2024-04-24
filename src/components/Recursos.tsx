@@ -5,8 +5,8 @@ import banner2 from '@/assets/banner2.webp'
 export default function Recursos() {
     return (
         <div id="recursos" className="block h-screen flex flex-col lg:flex-row items-center justify-center px-8 lg:px-56 lg:pt-0 pt-12bg-cover bg-center" style={{ backgroundImage: "url('/bg4.webp')" }}>
-            <div className="w-full lg:w-1/2 mr-20">
-                <Image src={banner2} alt="Logo" width={750} height={32} />
+            <div className="w-full lg:w-1/2 flex items-center justify-center mr-20">
+                <Image src={banner2} alt="Logo" quality={100} width={1000} height={1000} />
             </div>
             <div className="relative z-10 text-white w-full lg:w-1/2">
                 <div className="w-1/2 text-left text-white mb-6">
