@@ -12,6 +12,7 @@ const config: Config = {
         "purple-custom": "#812E9A",
         "gray-custom": "#1C242F",
         "background": "#151C24",
+        "gray-bg": "#929292",
       }
     },
   },
