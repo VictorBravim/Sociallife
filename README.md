@@ -39,27 +39,26 @@ Acesse [http://localhost:3000](http://localhost:3000) em seu navegador para visu
 
 ## <code>Estrutura do Projeto</code>
 
-sociallife/
-├── components/
-│ ├── Nav.tsx
-│ ├── Hero.tsx
-│ ├── Sobre.tsx
-│ ├── Projeto.tsx
-│ ├── Recursos.tsx
-│ ├── Servico.tsx
-│ └── Footer.tsx
-├── app/
-│ ├── layout.tsx
-│ └── page.tsx
-├── assets/
-│ ├── logo.webp
-│ ├── banner.webp
-│ ├── user.webp
-│ ├── banner2.webp
-│ └── ...
-├── globals.css
-├── ...
-└── README.md
+- sociallife/
+- ├── components/
+- │ ├── Nav.tsx
+- │ ├── Hero.tsx
+- │ ├── Sobre.tsx
+- │ ├── Projeto.tsx
+- │ ├── Recursos.tsx
+- │ ├── Servico.tsx
+- │ └── Footer.tsx
+- ├── app/
+- │ ├── layout.tsx
+- │ └── page.tsx
+- ├── assets/
+- │ ├── logo.webp
+- │ ├── banner.webp
+- │ ├── user.webp
+- │ ├── banner2.webp
+- │ └── ...
+- ├── ...
+- └── README.md
 
 ## <code>Licença</code>
 
