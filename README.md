@@ -1,66 +1,49 @@
-# Sociallife
+# 📱 Sociallife
 
-![image 4](https://github.com/VictorBravim/Sociallife/assets/122113588/4547d4b1-2369-4c92-ace1-33a0cc313838)
+![451shots_so](https://github.com/VictorBravim/Sociallife/assets/122113588/54ee2957-b1b9-4edf-bba2-063282b0a73b)
 
-Sociallife é um serviço de promoção em redes sociais desenvolvido utilizando React e Next.js.
+## 🚀 Overview
 
-## <code>Visão Geral</code>
+Sociallife is a social media promotion service developed using React and Next.js.
 
-Este projeto consiste em um site responsivo com várias seções, incluindo:
+## 📋 Requirements
 
-- Página inicial (Home)
-- Sobre
-- Projeto
-- Recursos
-- Serviço
-- Footer
+- Node.js
+- npm ou yarn
 
-## <code>Instalação</code>
+## 🔧 Installation
 
-Certifique-se de ter o Node.js instalado em sua máquina.
-
-1. Clone o repositório:
+1. Clone this repository:
    
-   ```
-   git clone https://github.com/VictorBravim/truevr-website.git
-   ```
-2. Instale as dependências:
+```
+git clone https://github.com/VictorBravim/Sociallife.git
+```
+
+2. Navigate to the project directory:
    
-   ```
-   npm install
-   ```
+```
+cd Sociallife
+```
+
+3. Install dependencies:
    
-## <code>Uso</code>
+```
+npm install
+```
 
-Para iniciar o servidor de desenvolvimento:
+## 🛠️ Project Structure
 
-- npm run dev
-  
-- Acesse [http://localhost:3000](http://localhost:3000) em seu navegador para visualizar o site.
+- Nav.tsx
+- Hero.tsx
+- Sobre.tsx
+- Projeto.tsx
+- Recursos.tsx
+- Servico.tsx
+- Footer.tsx
 
-## <code>Estrutura do Projeto</code>
+## 📄 License
 
-- sociallife/
--  components/
--   Nav.tsx
--   Hero.tsx
--   Sobre.tsx
--   Projeto.tsx
--   Recursos.tsx
--   Servico.tsx
--   Footer.tsx
--  app/
--   layout.tsx
--   page.tsx
--  assets/
--   logo.webp
--   banner.webp
--   user.webp
--   banner2.webp
-
-## <code>Licença</code>
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
+- This project is licensed under the [MIT License](LICENSE).
 
 
 
