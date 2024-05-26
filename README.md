@@ -1,6 +1,6 @@
 # 📱 Sociallife
 
-![451shots_so](https://github.com/VictorBravim/Sociallife/assets/122113588/54ee2957-b1b9-4edf-bba2-063282b0a73b)
+![image 4](https://github.com/VictorBravim/Sociallife/assets/122113588/0188135d-6657-433f-a6f4-1952fa791ba7)
 
 ## 🚀 Overview
 
